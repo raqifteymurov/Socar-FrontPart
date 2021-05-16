@@ -1,0 +1,181 @@
+/* .header{
+    display: block;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}     
+.image1{  
+    position: absolute; 
+    top:0px;
+    left: 0;  
+    z-index: -1;   
+}
+.logo{
+    position: absolute;
+    left: 70px;
+    top: 30px;
+}
+ .search{
+     display: inline-block;    
+ }
+.search a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-left: 1180px;
+}
+.search a:hover{
+    color: blue;   
+}
+.dropdown img{
+     position: fixed;
+     width:35px;
+     margin-top:13px;
+     margin-left: 1275px
+}
+.dropdown img:hover{
+    cursor: pointer;
+}
+.dropdown {
+    position: relative; 
+}
+  .dropdown-content{
+    display: none;
+    padding: 12px 16px;
+  }
+.dropdown:hover .dropdown-content{
+    display:block; 
+    margin-top: 47px;
+    position: absolute;
+    right: 5px;
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;    
+   }
+.dropdown-content a:hover{
+       color: rgb(75,75, 75);
+}   
+ .dropdown-content a{
+    /* color:rgb(0,161, 227) */
+    color: blanchedalmond;
+}
+.main-content1{
+    background-color: rgb(0,161, 227);
+    border: none; 
+}
+.main-content2{
+    background-color: rgb(75,75, 75);
+    border: none;  
+}
+.maincontent1h{
+   margin-top: 75px;
+   margin-left: 60px;
+  color:white;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: NeueHaasUnica, sans-serif;
+    letter-spacing: -.030em;
+}
+.text{
+    display: inline-block;
+    color: white;
+    width:420px;    
+    line-height: 21px;
+    margin-top: 20px;
+    margin-left: 22px;
+    font-family: NeueHaasUnica, sans-serif;
+}
+
+.maincontent2h{
+    margin-top: 75px;
+    margin-left: 60px;
+   color:white;
+     font-weight: bold;
+     font-size: 40px;
+     font-family: NeueHaasUnica, sans-serif;
+     letter-spacing: -.030em;
+}
+.text1{
+    display: inline-block;
+    color: white;
+    width:420px;    
+    line-height: 21px;
+    margin-top: 20px;
+    margin-left: 22px;
+    font-family: NeueHaasUnica, sans-serif;
+}
+.newsh{
+   margin-top: 40px;
+   padding-bottom: 6px;
+    font-family: NeueHaasUnica, sans-serif;
+    margin-left: 70px;
+    color: rgb(0,161, 227);
+}
+.line{
+    background-color: rgb(0,161, 227);
+      margin-left: 20px;
+      margin: 0 auto;
+    width: 1210px;
+    height: 2.3px;
+}
+.table{
+    margin: 0 auto;
+}
+ 
+.table td {
+    font-weight: bold;
+    font-size: 25px;
+    text-align:left;
+     
+}
+.table th{
+    text-align :left;   
+    opacity: 0.7;
+}
+.table td a{
+   color: rgb(75,75, 75);
+   text-decoration: none;
+    
+}
+.table tr td a:hover{
+    color: rgb(0,161, 227);
+}
+.footer{
+    background: rgb(75,75, 75);   
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    font-family: NeueHaasUnica, sans-serif;
+}
+.footera{
+    margin-top: 40px;
+    margin-left: 340px;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.socialnetworks{
+ margin-left: 100px;
+ opacity: 0.8;
+ position: absolute;
+ top: 2025px; 
+}
+ .socialnetworks a:hover{
+    opacity: 0.5;
+}   
+
+
+
+
+
+
+
+
+   
+  
+ 
